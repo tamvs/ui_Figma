@@ -25,3 +25,8 @@ font-weight: 700;
 line-height: 1rem; /* 145.455% */
 text-transform: uppercase;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #4945FF !important; 
+    background-color: transparent !important;
+}

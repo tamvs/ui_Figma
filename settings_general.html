@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Template</title>
+
+    <!-- boostrap css  -->
+    <link rel="stylesheet" href="./Assets/vendors/bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+
+    <!-- coustom css  -->
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+
+    <!-- boostrap icons  -->
+    <link rel="stylesheet" href="./Assets/vendors/icons-1.11.1/font/bootstrap-icons.css" />
+    <!-- font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <!-- Nav Bar start  -->
+    <nav class="navbar navbar-expand-lg nav_height">
+        <div class="container-fluid nav_bg">
+            <a class="navbar-brand" href="#"><img src="./Assets/images/logo_icon.svg" height="24px" width="24px"
+                    alt="" /><span class="logo_text"> Booker</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link Nav_Menu" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Nav_Menu_active" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Nav_Menu" href="#">Business</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="Nav_btn Btn_1 me-2" type="submit">Login</button>
+                    <button class="Nav_btn Btn_2 me-2" type="submit">Register</button>
+
+                    <div class="dropdown DD_style dropstart">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="./Assets/images/flag.png" alt="" />
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End  -->
+
+    <!-- nav 2 start  -->
+    <nav class="container-fluid bg_color_nav_2 py-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-5"></div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control search_input ZIndex" placeholder="Search"
+                                aria-label="Search" aria-describedby="basic-addon1" />
+                            <span class="input-group-text bg_search" id="basic-addon1"><i
+                                    class="bi bi-search px-2"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <select class="form-select w-75_css select_style" aria-label="Default select example">
+                    <option selected>Choose filters</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <!-- nav 2 end  -->
+
+    <!-- confirmation page content start -->
+    <section class="container mb-5 pb-5">
+        <div class="row">
+            <div class="col-lg-12 mt-5 py-5">
+                <h1 class="Page_Heading text-start">Settings</h1>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12 py-5">
+                    <!-- <div class="d-lg-flex ">
+                        <div>
+                            <h6 class="C-setting-tab-color pb-3">GENERAL</h6>
+                        </div>
+                        <div class="mx-5">
+                            <h6 class="C-setting-tab-text">My orders</h6>
+                        </div>
+                        <div class="mx-5">
+                            <h6 class="C-setting-tab-text">My appointmets</h6>
+                        </div>
+                        <div class="mx-5">
+                            <h6 class="C-setting-tab-text">Saved</h6>
+                        </div>
+                        <div class="mx-5">
+                            <h6 class="C-setting-tab-text">mes formations</h6>
+                        </div>
+                        <div class="mx-5">
+                            <h6 class="C-setting-tab-text">recommandations</h6>
+                        </div>
+                        <div class="mx-5">
+                            <h6 class="C-setting-tab-text">contacts</h6>
+                        </div>
+                    </div> -->
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active C-setting-tab-text pb-3" id="pills-home-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home"
+                                aria-selected="true">GENERAL</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link C-setting-tab-text pb-3" id="pills-profile-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab"
+                                aria-controls="pills-profile" aria-selected="false">My orders</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link C-setting-tab-text pb-3" id="pills-contact-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-contact" role="tab"
+                                aria-controls="pills-contact" aria-selected="false">My appointmets</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link C-setting-tab-text pb-3" id="pills-disabled-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-disabled" role="tab"
+                                aria-controls="pills-disabled" aria-selected="false">Saved</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">First Name</p>
+                                                <div class="C-setting-input-box ">
+                                                    <input type="text" placeholder="type here"
+                                                        class="C-setting-input-field my-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">Last Name</p>
+                                                <div class="C-setting-input-box ">
+                                                    <input type="text" placeholder="type here"
+                                                        class="C-setting-input-field my-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">User Name</p>
+                                                <div class="C-setting-input-box ">
+                                                    <input type="text" placeholder="type here"
+                                                        class="C-setting-input-field my-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 row start here -->
+                                    <div class="row mt-lg-5 mt-sm-0">
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">MobilePhone</p>
+                                                <div class="C-setting-input-box ">
+                                                    <span><img src="./Assets/images/telephone 1.svg" alt=""> <input
+                                                            type="text" placeholder="type here"
+                                                            class="C-setting-input-field my-3"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">Email</p>
+                                                <div class="C-setting-input-box ">
+                                                    <span><img src="./Assets/images/email (1) 1.svg" alt=""> <input
+                                                            type="text" placeholder="type here"
+                                                            class="C-setting-input-field my-3"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">Password</p>
+                                                <div class="C-setting-input-box ">
+                                                    <input type="text" placeholder="**************"
+                                                        class="C-setting-input-field my-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 row start here -->
+                                    <div class="row mt-lg-5 mt-sm-0">
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">Address</p>
+                                                <div class="C-setting-input-box ">
+                                                    <input type="text" placeholder="type here"
+                                                        class="C-setting-input-field my-3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">City</p>
+                                                <div class="C-setting-input-box ">
+                                                    <input type="text" list="browsers" name="browser" id="browser"
+                                                        placeholder="type here" class="C-setting-input-field my-3"><span
+                                                        class="C-down-arrow"><img src="./Assets/images/downarrow.svg"
+                                                            alt=""></span></input>
+                                                    <datalist id="browsers">
+                                                        <option value="Edge">
+                                                        <option value="Firefox">
+                                                        <option value="Chrome">
+                                                        <option value="Opera">
+                                                        <option value="Safari">
+                                                    </datalist>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-12 ">
+                                            <div>
+                                                <p class="C-setting-input">Country</p>
+                                                <div class="C-setting-input-box ">
+                                                    <input type="text" list="browsers" name="browser" id="browser"
+                                                        placeholder="type here" class="C-setting-input-field my-3"><span
+                                                        class="C-down-arrow"><img src="./Assets/images/downarrow.svg"
+                                                            alt=""></span></input>
+                                                    <datalist id="browsers">
+                                                        <option value="Edge">
+                                                        <option value="Firefox">
+                                                        <option value="Chrome">
+                                                        <option value="Opera">
+                                                        <option value="Safari">
+                                                    </datalist>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="pills-disabled" role="tabpanel"
+                            aria-labelledby="pills-disabled-tab" tabindex="0">
+                            <section class="container mb-5 pb-5">
+                                <div class="row">
+                                    <div class="col-lg-12 mt-5 py-5">
+                                        <h1 class="C-setting-saved">Saved locations</h1>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <section class="bg-white py-5">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <!-- carousel card -->
+                                                        <div id="carouselExample" class="carousel slide">
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <div class="card p-3 img-wrapper">
+                                                                        <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                            alt="">
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-4">
+                                                                            <div class="mt-2">
+                                                                                <p class="C-setting-card-text">Exclusive
+                                                                                    Driving</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div class="mt-2">
+                                                                                    <img src="./Assets/images/Star 1.svg"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div class="C-setting-rate">
+                                                                                    <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div>
+                                                                                <img src="./Assets/images/map-pin.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div class="mx-2">
+                                                                                <p class="C-card-para pt-1">2715 Ash Dr. San
+                                                                                    Jose, South Dakota 83475</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <div class="card p-3 img-wrapper">
+                                                                        <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                            alt="">
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-4">
+                                                                            <div class="mt-2">
+                                                                                <p class="C-setting-card-text">Exclusive
+                                                                                    Driving</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div class="mt-2">
+                                                                                    <img src="./Assets/images/Star 1.svg"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div class="C-setting-rate">
+                                                                                    <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div>
+                                                                                <img src="./Assets/images/map-pin.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div class="mx-2">
+                                                                                <p class="C-card-para pt-1">2715 Ash Dr. San
+                                                                                    Jose, South Dakota 83475</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <div class="card p-3 img-wrapper"  >
+                                                                        <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                            alt="">
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-4">
+                                                                            <div class="mt-2">
+                                                                                <p class="C-setting-card-text">Exclusive
+                                                                                    Driving</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div class="mt-2">
+                                                                                    <img src="./Assets/images/Star 1.svg"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div class="C-setting-rate">
+                                                                                    <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div>
+                                                                                <img src="./Assets/images/map-pin.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div class="mx-2">
+                                                                                <p class="C-card-para pt-1">2715 Ash Dr. San
+                                                                                    Jose, South Dakota 83475</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <button class="carousel-control-prev" type="button"
+                                                                data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Previous</span>
+                                                            </button>
+                                                            <button class="carousel-control-next" type="button"
+                                                                data-bs-target="#carouselExample" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Next</span>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- saved tab start here -->
+
+    <!-- confirmation page content end -->
+    <!-- Footer start -->
+    <footer>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row text-center">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg Footer_text">About</div>
+                        <div class="col-lg Footer_text">Categories</div>
+                        <div class="col-lg Footer_text">Business</div>
+                        <div class="col-lg Footer_text">FAQ</div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                    <span class="d-block d-flex">
+                        <img src="./Assets/images/Snap.svg" class="img-fluid me-2" alt="" />
+                        <img src="./Assets/images/Instagram.svg" class="img-fluid me-2" alt="" />
+                        <img src="./Assets/images/Tiktok.svg" class="img-fluid me-2" alt="" />
+                        <img src="./Assets/images/Facebook.svg" class="img-fluid me-2" alt="" />
+                    </span>
+                </div>
+                <div class="col-lg-12">
+                    <p class="footer_text_rights text-center">
+                        Copyright ©2021. All Right Reserved
+                    </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <span class="d-block Select_Lable">Type de vécicule</span>
+                    <select class="form-select Select_style form-select-lg mb-3" aria-label="Large select example">
+                        <option selected></option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <span class="d-block Select_Lable"> Monitor </span>
+                    <select class="form-select Select_style form-select-lg mb-3" aria-label="Large select example">
+                        <option selected></option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="modal-footer border-0">
+                    <button class="theme_btn mt-4">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- boostrap js  -->
+    <script src="./Assets/vendors/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var carouselwidth = $('.carousel-inner')[0].scrollwidth;
+        var cardwidth = $(".carousel-item").width();
+        var scrollposition = 0;
+
+        $('carousel-control-next').on('click',function(){
+            if(scrollposition < (carouselwidth - (cardwidth * 4))){
+                console.log("next")
+            scrollposition = scrollposition + cardwidth;
+            $('carosel-inner').animate({scrollleft: scrollposition},600)
+            }
+           
+        });
+        $('carousel-control-prev').on('click',function(){
+            if(scrollposition < (carouselwidth - (cardwidth * 4))){
+                console.log("next")
+            scrollposition = scrollposition - cardwidth;
+            $('carosel-inner').animate({scrollleft: scrollposition},600)
+            }
+           
+        });
+
+    </script>
+
+
+
+
+</body>
+
+</html>
