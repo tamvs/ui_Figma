@@ -472,3 +472,38 @@ box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
     max-width: 900px;
     margin: 40px auto;
   }
+
+  @media screen and (max-width:800px) {
+    .fc-button .fc-icon {
+        vertical-align: middle;
+        font-size: 0.8em !important;
+    }
+    
+    .fc-button {
+        -webkit-appearance: button;
+        color: #212529;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.4em 0.65em;
+        font-size: 0.7em !important;
+        line-height: 1.5;
+        border-radius: 0.25em;
+    }
+    
+    .fc {
+        direction: ltr;
+        text-align: left;
+        font-size: 11px !important;
+    }
+  }
+  .fc-button-primary {
+    color: #fff;
+    background-color: #610bef !important;
+    border-color: #610bef !important;
+}
+ 
