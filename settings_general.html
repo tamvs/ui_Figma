@@ -21,6 +21,13 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10.3.1/modules/effect-fade.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
 </head>
 
@@ -140,23 +147,33 @@
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link C-setting-tab-text pb-3" id="pills-profile-tab"
-                                data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-myorder" role="tab"
                                 aria-controls="pills-profile" aria-selected="false">My orders</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link C-setting-tab-text pb-3" id="pills-contact-tab"
                                 data-bs-toggle="pill" data-bs-target="#pills-contact" role="tab"
-                                aria-controls="pills-contact" aria-selected="false">My appointmets</button>
+                                aria-controls="pills-contact" aria-selected="false">MES FORMATIONS</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link C-setting-tab-text pb-3" id="pills-disabled-tab"
                                 data-bs-toggle="pill" data-bs-target="#pills-disabled" role="tab"
                                 aria-controls="pills-disabled" aria-selected="false">Saved</button>
                         </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link C-setting-tab-text pb-3" id="pills-disabled-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-recommandations" role="tab"
+                                aria-controls="pills-disabled" aria-selected="false"> RECOMMANDATIONS</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link C-setting-tab-text pb-3" id="pills-disabled-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-contacts" role="tab"
+                                aria-controls="pills-disabled" aria-selected="false"> CONTACTS</button>
+                        </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                            aria-labelledby="pills-home-tab" tabindex="0">
+                            aria-labelledby="pills-home-tab" tabindex="1">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="row">
@@ -272,12 +289,1028 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="pills-myorder" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <!-- my order target -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div>
+                                        <div class="row mt-3 mt-md-5">
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <img src="./Assets/images/empty.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Poduct name</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Nai Polish</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Unit price</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Quantity</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <div class="number d-flex">
+                                                        <span class="minus mx-3">-</span>
+                                                        <input type="text" class="input-border-none w-25" value="1" />
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Total products</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <h2 class="C-order-tittle">Status</h2>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./Assets/images/edit.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="./Assets/images/delete.png" alt="" class=" mx-3">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Sent</h6>
+                                                </div>
+
+                                                <div>
+                                                    <button class="C-myorder-btn">see more</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row mt-3 mt-md-5">
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <img src="./Assets/images/empty.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Poduct name</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Nai Polish</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Unit price</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Quantity</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <div class="number d-flex">
+                                                        <span class="minus mx-3">-</span>
+                                                        <input type="text" class="input-border-none w-25" value="1" />
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Total products</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <h2 class="C-order-tittle">Status</h2>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./Assets/images/edit.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="./Assets/images/delete.png" alt="" class=" mx-3">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Sent</h6>
+                                                </div>
+
+                                                <div>
+                                                    <button class="C-myorder-btn">see more</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row mt-3  mt-md-5">
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <img src="./Assets/images/empty.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Poduct name</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Nai Polish</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Unit price</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Quantity</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <div class="number d-flex">
+                                                        <span class="minus mx-3">-</span>
+                                                        <input type="text" class="input-border-none w-25" value="1" />
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Total products</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <h2 class="C-order-tittle">Status</h2>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./Assets/images/edit.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="./Assets/images/delete.png" alt="" class=" mx-3">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Sent</h6>
+                                                </div>
+
+                                                <div>
+                                                    <button class="C-myorder-btn">see more</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row mt-3 mt-md-5">
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <img src="./Assets/images/empty.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Poduct name</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Nai Polish</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Unit price</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Quantity</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <div class="number d-flex">
+                                                        <span class="minus mx-3">-</span>
+                                                        <input type="text" class="input-border-none w-25" value="1" />
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div>
+                                                    <h2 class="C-order-tittle">Total products</h2>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">$68.93</h6>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <h2 class="C-order-tittle">Status</h2>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <img src="./Assets/images/edit.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="./Assets/images/delete.png" alt="" class=" mx-3">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-5">
+                                                    <h6 class="C-order-para">Sent</h6>
+                                                </div>
+
+                                                <div>
+                                                    <button class="C-myorder-btn">see more</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel"
                             aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+
+                        <div class="tab-pane fade" id="pills-recommandations" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="C-recommand-head">Recommandations de Franca Bouffet</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 py-5">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div id="testimonial-slider3" class="owl-carousel3">
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div id="carouselExampleIndicators" class="carousel slide">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <div class="d-md-flex d-sm-block card-bg-C">
+                                                                    <div>
+                                                                        <img src="./Assets/images/women.png" alt="">
+                                                                    </div>
+                                                                    <div class="ms-5">
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <div>
+                                                                                <img src="./Assets/images/Quote Left.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="./Assets/images/Frame.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h3 class="C-Setting-car-head mt-3">Appname
+                                                                                always has exactly what I’m looking for,
+                                                                                and
+                                                                                shipped the very next day.</h3>
+                                                                        </div>
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-5">
+                                                                            <div>
+                                                                                <p>Sheree Monier</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div>
+                                                                                    <img src="./Assets/images/watch_later_24px.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>6/15/2020</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="carousel-indicators">
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="0" class="active"
+                                                                                    aria-current="true"
+                                                                                    aria-label="Slide 1"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="1"
+                                                                                    aria-label="Slide 2"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="2"
+                                                                                    aria-label="Slide 3"></button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item ">
+                                                                <div class="d-md-flex d-sm-block card-bg-C">
+                                                                    <div>
+                                                                        <img src="./Assets/images/women.png" alt="">
+                                                                    </div>
+                                                                    <div class="ms-5">
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <div>
+                                                                                <img src="./Assets/images/Quote Left.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="./Assets/images/Frame.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h3 class="C-Setting-car-head mt-3">Appname
+                                                                                always has exactly what I’m looking for,
+                                                                                and
+                                                                                shipped the very next day.</h3>
+                                                                        </div>
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-5">
+                                                                            <div>
+                                                                                <p>Sheree Monier</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div>
+                                                                                    <img src="./Assets/images/watch_later_24px.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>6/15/2020</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="carousel-indicators">
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="0" class="active"
+                                                                                    aria-current="true"
+                                                                                    aria-label="Slide 1"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="1"
+                                                                                    aria-label="Slide 2"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="2"
+                                                                                    aria-label="Slide 3"></button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item ">
+                                                                <div class="d-md-flex d-sm-block card-bg-C">
+                                                                    <div>
+                                                                        <img src="./Assets/images/women.png" alt="">
+                                                                    </div>
+                                                                    <div class="ms-5">
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <div>
+                                                                                <img src="./Assets/images/Quote Left.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="./Assets/images/Frame.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h3 class="C-Setting-car-head mt-3">Appname
+                                                                                always has exactly what I’m looking for,
+                                                                                and
+                                                                                shipped the very next day.</h3>
+                                                                        </div>
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-5">
+                                                                            <div>
+                                                                                <p>Sheree Monier</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div>
+                                                                                    <img src="./Assets/images/watch_later_24px.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>6/15/2020</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="carousel-indicators">
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="0" class="active"
+                                                                                    aria-current="true"
+                                                                                    aria-label="Slide 1"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="1"
+                                                                                    aria-label="Slide 2"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators"
+                                                                                    data-bs-slide-to="2"
+                                                                                    aria-label="Slide 3"></button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5 pt-md-5">
+                                <div class="col-lg-12">
+                                    <h1 class="C-recommand-head">Recommandations de Angelica Torn </h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 py-5">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div id="testimonial-slider4" class="owl-carousel3">
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-item equal-height style-6">
+                                                    <div class="card mt-4 card_shadow p-3 recommand-bg-C">
+                                                        <div class="d-flex justify-content-end  ">
+                                                            <img src="./Assets/images/heart1.svg"
+                                                                class="contacts-rounded" alt="...">
+                                                        </div>
+                                                        <div class="card-body recommand-mar-C">
+                                                            <div class="">
+                                                                <div class="d-flex justify-content-between mt-4">
+                                                                    <div class="mt-2">
+                                                                        <p class="C-setting-card-text text-white">
+                                                                            Exclusive
+                                                                            Driving</p>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="mt-2">
+                                                                            <img src="./Assets/images/Star 1.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="C-setting-rate">
+                                                                            <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <img src="./Assets/images/map-pin.svg" alt="">
+                                                                    </div>
+                                                                    <div class="mx-2">
+                                                                        <p class="C-card-para pt-1 text-white">2715 Ash
+                                                                            Dr.
+                                                                            San
+                                                                            Jose, South Dakota 83475</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div id="carouselExampleIndicators1" class="carousel slide">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <div class="d-md-flex d-sm-block card-bg-C">
+                                                                    <div>
+                                                                        <img src="./Assets/images/women.png" alt="">
+                                                                    </div>
+                                                                    <div class="ms-5">
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <div>
+                                                                                <img src="./Assets/images/Quote Left.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="./Assets/images/Frame.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h3 class="C-Setting-car-head mt-3">Appname
+                                                                                always has exactly what I’m looking for,
+                                                                                and
+                                                                                shipped the very next day.</h3>
+                                                                        </div>
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-5">
+                                                                            <div>
+                                                                                <p>Sheree Monier</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div>
+                                                                                    <img src="./Assets/images/watch_later_24px.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>6/15/2020</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="carousel-indicators">
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="0" class="active"
+                                                                                    aria-current="true"
+                                                                                    aria-label="Slide 1"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="1"
+                                                                                    aria-label="Slide 2"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="2"
+                                                                                    aria-label="Slide 3"></button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item ">
+                                                                <div class="d-md-flex d-sm-block card-bg-C">
+                                                                    <div>
+                                                                        <img src="./Assets/images/women.png" alt="">
+                                                                    </div>
+                                                                    <div class="ms-5">
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <div>
+                                                                                <img src="./Assets/images/Quote Left.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="./Assets/images/Frame.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h3 class="C-Setting-car-head mt-3">Appname
+                                                                                always has exactly what I’m looking for,
+                                                                                and
+                                                                                shipped the very next day.</h3>
+                                                                        </div>
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-5">
+                                                                            <div>
+                                                                                <p>Sheree Monier</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div>
+                                                                                    <img src="./Assets/images/watch_later_24px.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>6/15/2020</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="carousel-indicators">
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="0" class="active"
+                                                                                    aria-current="true"
+                                                                                    aria-label="Slide 1"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="1"
+                                                                                    aria-label="Slide 2"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="2"
+                                                                                    aria-label="Slide 3"></button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="carousel-item ">
+                                                                <div class="d-md-flex d-sm-block card-bg-C">
+                                                                    <div>
+                                                                        <img src="./Assets/images/women.png" alt="">
+                                                                    </div>
+                                                                    <div class="ms-5">
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <div>
+                                                                                <img src="./Assets/images/Quote Left.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <img src="./Assets/images/Frame.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <h3 class="C-Setting-car-head mt-3">Appname
+                                                                                always has exactly what I’m looking for,
+                                                                                and
+                                                                                shipped the very next day.</h3>
+                                                                        </div>
+                                                                        <div
+                                                                            class="d-flex justify-content-between mt-5">
+                                                                            <div>
+                                                                                <p>Sheree Monier</p>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div>
+                                                                                    <img src="./Assets/images/watch_later_24px.png"
+                                                                                        alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>6/15/2020</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="carousel-indicators">
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="0" class="active"
+                                                                                    aria-current="true"
+                                                                                    aria-label="Slide 1"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="1"
+                                                                                    aria-label="Slide 2"></button>
+                                                                                <button type="button"
+                                                                                    data-bs-target="#carouselExampleIndicators1"
+                                                                                    data-bs-slide-to="2"
+                                                                                    aria-label="Slide 3"></button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="tab-pane fade" id="pills-disabled" role="tabpanel"
-                            aria-labelledby="pills-disabled-tab" tabindex="0">
+                            aria-labelledby="pills-disabled-tab" tabindex="4">
                             <section class="container mb-5 pb-5">
                                 <div class="row">
                                     <div class="col-lg-12 mt-5 py-5">
@@ -288,128 +1321,376 @@
                                             <section class="bg-white py-5">
                                                 <div class="row">
                                                     <div class="col-lg-12">
-                                                        <!-- carousel card -->
-                                                        <div id="carouselExample" class="carousel slide">
-                                                            <div class="carousel-inner">
-                                                                <div class="carousel-item active">
-                                                                    <div class="card p-3 img-wrapper">
-                                                                        <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
-                                                                            alt="">
-                                                                        <div
-                                                                            class="d-flex justify-content-between mt-4">
-                                                                            <div class="mt-2">
-                                                                                <p class="C-setting-card-text">Exclusive
-                                                                                    Driving</p>
-                                                                            </div>
-                                                                            <div class="d-flex">
-                                                                                <div class="mt-2">
-                                                                                    <img src="./Assets/images/Star 1.svg"
-                                                                                        alt="">
-                                                                                </div>
-                                                                                <div class="C-setting-rate">
-                                                                                    <p class="mt-2 pt-1 mx-3">4.5</p>
-                                                                                </div>
-                                                                            </div>
-
+                                                        <div id="testimonial-slider" class="owl-carousel">
+                                                            <!--  ////////////////////////////////////////////////////////  -->
+                                                            <div class="testimonial-item equal-height style-6">
+                                                                <div class="card card_shadow p-3 img-wrapper">
+                                                                    <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                        alt="">
+                                                                    <div class="d-flex justify-content-between mt-4">
+                                                                        <div class="mt-2">
+                                                                            <p class="C-setting-card-text">Exclusive
+                                                                                Driving</p>
                                                                         </div>
                                                                         <div class="d-flex">
-                                                                            <div>
-                                                                                <img src="./Assets/images/map-pin.svg"
+                                                                            <div class="mt-2">
+                                                                                <img src="./Assets/images/Star 1.svg"
                                                                                     alt="">
                                                                             </div>
-                                                                            <div class="mx-2">
-                                                                                <p class="C-card-para pt-1">2715 Ash Dr. San
-                                                                                    Jose, South Dakota 83475</p>
+                                                                            <div class="C-setting-rate">
+                                                                                <p class="mt-2 pt-1 mx-3">4.5</p>
                                                                             </div>
                                                                         </div>
 
                                                                     </div>
-                                                                </div>
-                                                                <div class="carousel-item">
-                                                                    <div class="card p-3 img-wrapper">
-                                                                        <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
-                                                                            alt="">
-                                                                        <div
-                                                                            class="d-flex justify-content-between mt-4">
-                                                                            <div class="mt-2">
-                                                                                <p class="C-setting-card-text">Exclusive
-                                                                                    Driving</p>
-                                                                            </div>
-                                                                            <div class="d-flex">
-                                                                                <div class="mt-2">
-                                                                                    <img src="./Assets/images/Star 1.svg"
-                                                                                        alt="">
-                                                                                </div>
-                                                                                <div class="C-setting-rate">
-                                                                                    <p class="mt-2 pt-1 mx-3">4.5</p>
-                                                                                </div>
-                                                                            </div>
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <img src="./Assets/images/map-pin.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="mx-2">
+                                                                            <p class="C-card-para pt-1">2715 Ash Dr.
+                                                                                San
+                                                                                Jose, South Dakota 83475</p>
+                                                                        </div>
+                                                                    </div>
 
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="testimonial-item equal-height style-6">
+                                                                <div class="card card_shadow p-3 img-wrapper">
+                                                                    <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                        alt="">
+                                                                    <div class="d-flex justify-content-between mt-4">
+                                                                        <div class="mt-2">
+                                                                            <p class="C-setting-card-text">Exclusive
+                                                                                Driving</p>
                                                                         </div>
                                                                         <div class="d-flex">
-                                                                            <div>
-                                                                                <img src="./Assets/images/map-pin.svg"
+                                                                            <div class="mt-2">
+                                                                                <img src="./Assets/images/Star 1.svg"
                                                                                     alt="">
                                                                             </div>
-                                                                            <div class="mx-2">
-                                                                                <p class="C-card-para pt-1">2715 Ash Dr. San
-                                                                                    Jose, South Dakota 83475</p>
+                                                                            <div class="C-setting-rate">
+                                                                                <p class="mt-2 pt-1 mx-3">4.5</p>
                                                                             </div>
                                                                         </div>
 
                                                                     </div>
-                                                                </div>
-                                                                <div class="carousel-item">
-                                                                    <div class="card p-3 img-wrapper"  >
-                                                                        <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
-                                                                            alt="">
-                                                                        <div
-                                                                            class="d-flex justify-content-between mt-4">
-                                                                            <div class="mt-2">
-                                                                                <p class="C-setting-card-text">Exclusive
-                                                                                    Driving</p>
-                                                                            </div>
-                                                                            <div class="d-flex">
-                                                                                <div class="mt-2">
-                                                                                    <img src="./Assets/images/Star 1.svg"
-                                                                                        alt="">
-                                                                                </div>
-                                                                                <div class="C-setting-rate">
-                                                                                    <p class="mt-2 pt-1 mx-3">4.5</p>
-                                                                                </div>
-                                                                            </div>
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <img src="./Assets/images/map-pin.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="mx-2">
+                                                                            <p class="C-card-para pt-1">2715 Ash Dr.
+                                                                                San
+                                                                                Jose, South Dakota 83475</p>
+                                                                        </div>
+                                                                    </div>
 
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="testimonial-item equal-height style-6">
+                                                                <div class="card p-3 img-wrapper">
+                                                                    <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                        alt="">
+                                                                    <div class="d-flex justify-content-between mt-4">
+                                                                        <div class="mt-2">
+                                                                            <p class="C-setting-card-text">Exclusive
+                                                                                Driving</p>
                                                                         </div>
                                                                         <div class="d-flex">
-                                                                            <div>
-                                                                                <img src="./Assets/images/map-pin.svg"
+                                                                            <div class="mt-2">
+                                                                                <img src="./Assets/images/Star 1.svg"
                                                                                     alt="">
                                                                             </div>
-                                                                            <div class="mx-2">
-                                                                                <p class="C-card-para pt-1">2715 Ash Dr. San
-                                                                                    Jose, South Dakota 83475</p>
+                                                                            <div class="C-setting-rate">
+                                                                                <p class="mt-2 pt-1 mx-3">4.5</p>
                                                                             </div>
                                                                         </div>
 
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <img src="./Assets/images/map-pin.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="mx-2">
+                                                                            <p class="C-card-para pt-1">2715 Ash Dr.
+                                                                                San
+                                                                                Jose, South Dakota 83475</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="testimonial-item equal-height style-6">
+                                                                <div class="card card_shadow p-3 img-wrapper">
+                                                                    <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                        alt="">
+                                                                    <div class="d-flex justify-content-between mt-4">
+                                                                        <div class="mt-2">
+                                                                            <p class="C-setting-card-text">Exclusive
+                                                                                Driving</p>
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div class="mt-2">
+                                                                                <img src="./Assets/images/Star 1.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div class="C-setting-rate">
+                                                                                <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <img src="./Assets/images/map-pin.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="mx-2">
+                                                                            <p class="C-card-para pt-1">2715 Ash Dr.
+                                                                                San
+                                                                                Jose, South Dakota 83475</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-item equal-height style-6">
+                                                                <div class="card card_shadow p-3 img-wrapper">
+                                                                    <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                        alt="">
+                                                                    <div class="d-flex justify-content-between mt-4">
+                                                                        <div class="mt-2">
+                                                                            <p class="C-setting-card-text">Exclusive
+                                                                                Driving</p>
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div class="mt-2">
+                                                                                <img src="./Assets/images/Star 1.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div class="C-setting-rate">
+                                                                                <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <img src="./Assets/images/map-pin.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="mx-2">
+                                                                            <p class="C-card-para pt-1">2715 Ash Dr.
+                                                                                San
+                                                                                Jose, South Dakota 83475</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-item equal-height style-6">
+                                                                <div class="card card_shadow p-3 img-wrapper">
+                                                                    <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                        alt="">
+                                                                    <div class="d-flex justify-content-between mt-4">
+                                                                        <div class="mt-2">
+                                                                            <p class="C-setting-card-text">Exclusive
+                                                                                Driving</p>
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div class="mt-2">
+                                                                                <img src="./Assets/images/Star 1.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div class="C-setting-rate">
+                                                                                <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <img src="./Assets/images/map-pin.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="mx-2">
+                                                                            <p class="C-card-para pt-1">2715 Ash Dr.
+                                                                                San
+                                                                                Jose, South Dakota 83475</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-item equal-height style-6">
+                                                                <div class="card card_shadow p-3 img-wrapper">
+                                                                    <img src="./Assets/images/unsplash_XuDPnpox8tc.png"
+                                                                        alt="">
+                                                                    <div class="d-flex justify-content-between mt-4">
+                                                                        <div class="mt-2">
+                                                                            <p class="C-setting-card-text">Exclusive
+                                                                                Driving</p>
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div class="mt-2">
+                                                                                <img src="./Assets/images/Star 1.svg"
+                                                                                    alt="">
+                                                                            </div>
+                                                                            <div class="C-setting-rate">
+                                                                                <p class="mt-2 pt-1 mx-3">4.5</p>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div>
+                                                                            <img src="./Assets/images/map-pin.svg"
+                                                                                alt="">
+                                                                        </div>
+                                                                        <div class="mx-2">
+                                                                            <p class="C-card-para pt-1">2715 Ash Dr.
+                                                                                San
+                                                                                Jose, South Dakota 83475</p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <button class="carousel-control-prev" type="button"
-                                                                data-bs-target="#carouselExample" data-bs-slide="prev">
-                                                                <span class="carousel-control-prev-icon"
-                                                                    aria-hidden="true"></span>
-                                                                <span class="visually-hidden">Previous</span>
-                                                            </button>
-                                                            <button class="carousel-control-next" type="button"
-                                                                data-bs-target="#carouselExample" data-bs-slide="next">
-                                                                <span class="carousel-control-next-icon"
-                                                                    aria-hidden="true"></span>
-                                                                <span class="visually-hidden">Next</span>
-                                                            </button>
                                                         </div>
-
                                                     </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <section class="bg-white py-5">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <h1 class="C-setting-saved">Saved products</h1>
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div>
+                                                                    <div id="testimonial-slider1" class="owl-carousel">
+                                                                        <div
+                                                                            class="testimonial-item equal-height style-6">
+                                                                            <div class="card mt-4 card_shadow p-3">
+                                                                                <img src="./Assets/images/unsplash_8ZKwW-2SR28.png"
+                                                                                    class="card-img-top" alt="...">
+                                                                                <div class="card-body">
+                                                                                    <h5
+                                                                                        class="card-title Card_head_text text-center my-3">
+                                                                                        Card title</h5>
+                                                                                    <div
+                                                                                        class="d-flex justify-content-evenly pt-2 pb-4">
+                                                                                        <span
+                                                                                            class="d-block text-muted card_offer_price"><s>CHF
+                                                                                                123.20</s></span>
+                                                                                        <span
+                                                                                            class="d-block card_para_text">CHF
+                                                                                            123.20</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="testimonial-item equal-height style-6">
+                                                                            <div class="card mt-4 card_shadow p-3">
+                                                                                <img src="./Assets/images/unsplash_8ZKwW-2SR28.png"
+                                                                                    class="card-img-top" alt="...">
+                                                                                <div class="card-body">
+                                                                                    <h5
+                                                                                        class="card-title Card_head_text text-center my-3">
+                                                                                        Card title</h5>
+                                                                                    <div
+                                                                                        class="d-flex justify-content-evenly pt-2 pb-4">
+                                                                                        <span
+                                                                                            class="d-block text-muted card_offer_price"><s>CHF
+                                                                                                123.20</s></span>
+                                                                                        <span
+                                                                                            class="d-block card_para_text">CHF
+                                                                                            123.20</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="testimonial-item equal-height style-6">
+                                                                            <div class="card mt-4 card_shadow p-3">
+                                                                                <img src="./Assets/images/unsplash_8ZKwW-2SR28.png"
+                                                                                    class="card-img-top" alt="...">
+                                                                                <div class="card-body">
+                                                                                    <h5
+                                                                                        class="card-title Card_head_text text-center my-3">
+                                                                                        Card title</h5>
+                                                                                    <div
+                                                                                        class="d-flex justify-content-evenly pt-2 pb-4">
+                                                                                        <span
+                                                                                            class="d-block text-muted card_offer_price"><s>CHF
+                                                                                                123.20</s></span>
+                                                                                        <span
+                                                                                            class="d-block card_para_text">CHF
+                                                                                            123.20</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="testimonial-item equal-height style-6">
+                                                                            <div class="card mt-4 card_shadow p-3">
+                                                                                <img src="./Assets/images/unsplash_8ZKwW-2SR28.png"
+                                                                                    class="card-img-top" alt="...">
+                                                                                <div class="card-body">
+                                                                                    <h5
+                                                                                        class="card-title Card_head_text text-center my-3">
+                                                                                        Card title</h5>
+                                                                                    <div
+                                                                                        class="d-flex justify-content-evenly pt-2 pb-4">
+                                                                                        <span
+                                                                                            class="d-block text-muted card_offer_price"><s>CHF
+                                                                                                123.20</s></span>
+                                                                                        <span
+                                                                                            class="d-block card_para_text">CHF
+                                                                                            123.20</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="testimonial-item equal-height style-6">
+                                                                            <div class="card mt-4 card_shadow p-3">
+                                                                                <img src="./Assets/images/unsplash_8ZKwW-2SR28.png"
+                                                                                    class="card-img-top" alt="...">
+                                                                                <div class="card-body">
+                                                                                    <h5
+                                                                                        class="card-title Card_head_text text-center my-3">
+                                                                                        Card title</h5>
+                                                                                    <div
+                                                                                        class="d-flex justify-content-evenly pt-2 pb-4">
+                                                                                        <span
+                                                                                            class="d-block text-muted card_offer_price"><s>CHF
+                                                                                                123.20</s></span>
+                                                                                        <span
+                                                                                            class="d-block card_para_text">CHF
+                                                                                            123.20</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
 
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
 
 
@@ -420,11 +1701,210 @@
                                 </div>
                             </section>
                         </div>
+                        <div class="tab-pane fade" id="pills-contacts" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="5">
+                            <div class="row">
+                                <div class="col-lg-12 mt-5 py-5">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="card mt-4 card_shadow p-3">
+                                                <div class="d-flex justify-content-end ">
+                                                    <img src="./Assets/images/heart1.svg" class="contacts-rounded"
+                                                        alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./Assets/images/Ellipse 132.png" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <h2 class="contact-text text-center">Franca Buffet</h2>
+                                                    </div>
+                                                    <div class="d-flex ms-5 ps-5">
+                                                        <div class="d-flex justify-content-center ">
+                                                            <div>
+                                                                <img src="./Assets/images/Call.svg" alt="">
+                                                            </div>
+                                                            <div class="mx-2">
+                                                                <img src="./Assets/images/Email.svg" alt="">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <button class="C-contact-btn-text p-4 fw-bold fs-5 ">See
+                                                            more</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card mt-4 card_shadow p-3">
+                                                <div class="d-flex justify-content-end ">
+                                                    <img src="./Assets/images/heart1.svg" class="contacts-rounded"
+                                                        alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./Assets/images/Ellipse 132.png" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <h2 class="contact-text text-center">Franca Buffet</h2>
+                                                    </div>
+                                                    <div class="d-flex ms-5 ps-5">
+                                                        <div class="d-flex justify-content-center ">
+                                                            <div>
+                                                                <img src="./Assets/images/Call.svg" alt="">
+                                                            </div>
+                                                            <div class="mx-2">
+                                                                <img src="./Assets/images/Email.svg" alt="">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <button class="C-contact-btn-text p-4 fw-bold fs-5 ">See
+                                                            more</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card mt-4 card_shadow p-3">
+                                                <div class="d-flex justify-content-end ">
+                                                    <img src="./Assets/images/heart1.svg" class="contacts-rounded"
+                                                        alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./Assets/images/Ellipse 132.png" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <h2 class="contact-text text-center">Franca Buffet</h2>
+                                                    </div>
+                                                    <div class="d-flex ms-5 ps-5">
+                                                        <div class="d-flex justify-content-center ">
+                                                            <div>
+                                                                <img src="./Assets/images/Call.svg" alt="">
+                                                            </div>
+                                                            <div class="mx-2">
+                                                                <img src="./Assets/images/Email.svg" alt="">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <button class="C-contact-btn-text p-4 fw-bold fs-5 ">See
+                                                            more</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="card mt-4 card_shadow p-3">
+                                                <div class="d-flex justify-content-end ">
+                                                    <img src="./Assets/images/heart1.svg" class="contacts-rounded"
+                                                        alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./Assets/images/Ellipse 132.png" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <h2 class="contact-text text-center">Franca Buffet</h2>
+                                                    </div>
+                                                    <div class="d-flex ms-5 ps-5">
+                                                        <div class="d-flex justify-content-center ">
+                                                            <div>
+                                                                <img src="./Assets/images/Call.svg" alt="">
+                                                            </div>
+                                                            <div class="mx-2">
+                                                                <img src="./Assets/images/Email.svg" alt="">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <button class="C-contact-btn-text p-4 fw-bold fs-5 ">See
+                                                            more</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card mt-4 card_shadow p-3">
+                                                <div class="d-flex justify-content-end ">
+                                                    <img src="./Assets/images/heart1.svg" class="contacts-rounded"
+                                                        alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./Assets/images/Ellipse 132.png" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <h2 class="contact-text text-center">Franca Buffet</h2>
+                                                    </div>
+                                                    <div class="d-flex ms-5 ps-5">
+                                                        <div class="d-flex justify-content-center ">
+                                                            <div>
+                                                                <img src="./Assets/images/Call.svg" alt="">
+                                                            </div>
+                                                            <div class="mx-2">
+                                                                <img src="./Assets/images/Email.svg" alt="">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <button class="C-contact-btn-text p-4 fw-bold fs-5 ">See
+                                                            more</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card mt-4 card_shadow p-3">
+                                                <div class="d-flex justify-content-end ">
+                                                    <img src="./Assets/images/heart1.svg" class="contacts-rounded"
+                                                        alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-center">
+                                                        <img src="./Assets/images/Ellipse 132.png" alt="">
+                                                    </div>
+                                                    <div>
+                                                        <h2 class="contact-text text-center">Franca Buffet</h2>
+                                                    </div>
+                                                    <div class="d-flex ms-5 ps-5">
+                                                        <div class="d-flex justify-content-center ">
+                                                            <div>
+                                                                <img src="./Assets/images/Call.svg" alt="">
+                                                            </div>
+                                                            <div class="mx-2">
+                                                                <img src="./Assets/images/Email.svg" alt="">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center mt-3">
+                                                        <button class="C-contact-btn-text p-4 fw-bold fs-5 ">See
+                                                            more</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
 
@@ -496,29 +1976,20 @@
 
     <!-- boostrap js  -->
     <script src="./Assets/vendors/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        var carouselwidth = $('.carousel-inner')[0].scrollwidth;
-        var cardwidth = $(".carousel-item").width();
-        var scrollposition = 0;
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 
-        $('carousel-control-next').on('click',function(){
-            if(scrollposition < (carouselwidth - (cardwidth * 4))){
-                console.log("next")
-            scrollposition = scrollposition + cardwidth;
-            $('carosel-inner').animate({scrollleft: scrollposition},600)
-            }
-           
-        });
-        $('carousel-control-prev').on('click',function(){
-            if(scrollposition < (carouselwidth - (cardwidth * 4))){
-                console.log("next")
-            scrollposition = scrollposition - cardwidth;
-            $('carosel-inner').animate({scrollleft: scrollposition},600)
-            }
-           
-        });
 
-    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10.3.1/swiper-bundle.min.js"></script>
+
+    <script src="./Assets/js/carousel.js"></script>
+
+
 
 
 
