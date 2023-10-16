@@ -49,3 +49,17 @@ $(document).ready(function(){
         autoPlay:true
     });
 });
+
+
+$(document).ready(function(){
+    $("#testimonial-slider5").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[980,1],
+        itemsTablet:[768,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["l","r"],
+        autoPlay:true
+    });
+});

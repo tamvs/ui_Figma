@@ -1,0 +1,1219 @@
+.card-Ael {
+    background: url("../images/cardael.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.AEL-card-bg {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 25rem;
+}
+
+.ael-C {
+    color: #000;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Desktop / Display Small Bold */
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+    letter-spacing: 1px;
+}
+
+.card-AEL {
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
+    padding: 15px 15px;
+
+}
+
+.card-Aeltittle {
+    color: var(--neutral-1, #0B0B0B);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 133.333% */
+
+}
+
+.card-Ael-para {
+    color: #BEBEBE !important;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 200% */
+    letter-spacing: 0.25px;
+
+}
+
+.card-Ael-para1 {
+    color: #666 !important;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 200% */
+    letter-spacing: 0.25px;
+
+}
+
+.AEL_MONEY {
+    color: #610BEF;
+}
+
+.ael-subhead {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+
+}
+
+.Ael-C-inp {
+    width: 100%;
+    --bs-form-select-bg-img: url("../images/iconAA.svg");
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: none;
+    background-color: #F6F6F9;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.AEL-button-color {
+    border-radius: 8px;
+    background: var(--btn_main, #610BEF);
+}
+
+.AEL-nail {
+    color: rgba(0, 0, 0, 0.50);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Small */
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 160% */
+    letter-spacing: 0.75px;
+}
+
+.AEL-nailpara {
+    color: rgba(0, 0, 0, 0.50);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 169.231% */
+    letter-spacing: 0.25px;
+}
+
+.NAIL-bg {
+    background: url("../images/maped.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.small-card-Ael {
+    border-radius: 15px;
+    background: #FFF;
+    /* margin-top: 200px; */
+
+}
+
+.AEL-phone-color {
+    color: #666 !important;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+@media (min-width:0px) and (max-width:320px) {
+    .card-Ael {
+        background: url("../images/cardael.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .AEL-card-bg {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        top: 2rem;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        background: url("../images/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        left: 230px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        background: url("../images/left.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        right: 230px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:375px) {
+    .card-Ael {
+        background: url("../images/cardael.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .AEL-card-bg {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        top: 18rem;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        background: url("../images/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        left: 230px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        background: url("../images/left.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        right: 230px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+}
+
+@media (min-width:376px) and (max-width:425px) {
+    .card-Ael {
+        background: url("../images/cardael.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .AEL-card-bg {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        top: 18rem;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        display: none !important;
+        background: url("../images/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute !important;
+        bottom: 248px !important;
+        left: 100px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        background: url("../images/left.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        right: 100px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+}
+
+@media (min-width:425px) and (max-width:765px) {
+    .card-Ael {
+        background: url("../images/cardael.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .AEL-card-bg {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        top: 18rem;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        background: url("../images/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        left: 576px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        background: url("../images/left.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        right: 576px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+}
+
+@media (min-width:765px) and (max-width:1024px) {
+    .card-Ael {
+        background: url("../images/cardael.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .AEL-card-bg {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        top: 20rem;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        background: url("../images/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        left: 576px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        background: url("../images/left.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        right: 576px !important;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+    .card-Ael {
+        background: url("../images/cardael.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .AEL-card-bg {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        top: 20rem;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        background: url("../images/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        left: 820px;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        background: url("../images/left.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        zoom: 1;
+        position: absolute;
+        bottom: 248px;
+        right: 820px;
+        z-index: 10000;
+        *: ;
+        display: inline;
+        margin: 5px;
+        padding: 30px 30px;
+        font-size: 0px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background-color: white;
+        filter: Alpha(Opacity=50);
+        opacity: .5;
+    }
+
+}
+
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    background: url("../images/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    zoom: 1;
+    position: absolute;
+    bottom: 248px;
+    left: 820px;
+    z-index: 10000;
+    *: ;
+    display: inline;
+    margin: 5px;
+    padding: 30px 30px;
+    font-size: 0px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: white;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    background: url("../images/left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    zoom: 1;
+    position: absolute;
+    bottom: 248px;
+    right: 820px;
+    z-index: 10000;
+    *: ;
+    display: inline;
+    margin: 5px;
+    padding: 30px 30px;
+    font-size: 0px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: white;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+}
+
+
+.logo_text {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.5rem;
+    /* 133.333% */
+}
+
+.form-select {
+    --bs-form-select-bg-img: url("../images/Accordion\ Option.svg");
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.Nav_Menu {
+    color: var(--grayscale-off-black, #14142B);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.Nav_Menu_active {
+    color: var(--grayscale-label, #6E7191);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.nav_height {
+    height: 6rem;
+}
+
+button {
+    all: unset;
+}
+
+.Nav_btn {
+    padding: 0.56rem 1.38rem 0.56rem 1.38rem;
+}
+
+.Btn_1 {
+    border-radius: 0.5rem;
+    border: 1px solid var(--btn_main, #610BEF);
+    color: var(--btn_main, #610BEF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+
+}
+
+.Btn_2 {
+    border-radius: 0.5rem;
+    background: var(--btn_main, #610BEF);
+    color: var(--grayscale-off-white, #FCFCFC);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.bg_color_nav_2 {
+    background: var(--grayscale-line, #D9DBE9);
+
+}
+
+.bg_search {
+    border-radius: 0px 15px 15px 0px;
+    background-color: var(--btn_main, #610BEF);
+    color: white;
+}
+
+.search_input {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.select_style {
+    border-radius: 0.625rem;
+}
+
+.DD_style {
+    border-radius: 1.25rem;
+    background: #FFF;
+
+    /* Custom/Shadow-Medium */
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+.Page_Heading {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Display Small Bold */
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    /* 133.333% */
+    letter-spacing: 0.0625rem;
+}
+
+.Sub_heading {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Display Small Bold */
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    /* 133.333% */
+    letter-spacing: 0.0625rem;
+}
+
+.para_text {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.border_Style {
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+}
+
+.Sub_3_Heading {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Medium */
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    /* 177.778% */
+    letter-spacing: 0.04688rem;
+}
+
+.padding_css {
+    padding: 1.12rem 2.25rem 1.75rem 1.88rem;
+}
+
+.Order_heading {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+.text_style {
+    color: #223C52;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+    margin-top: 1.38rem;
+    /* margin-bottom: 1.81rem; */
+}
+
+.Total_heading {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.Bg_total {
+    background: #F7F8F9;
+    height: 2.75rem;
+}
+
+.heading_order {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+.para_order {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+    margin-bottom: 0.6rem;
+}
+
+.List_heading {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.last_haeding {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.para_heading {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.04688rem;
+}
+
+footer {
+    background: #4700AB;
+    color: white;
+    padding: 30px 0px;
+}
+
+.Footer_text {
+    color: var(--grayscale-off-white, #FCFCFC);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Text Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+.footer_text_rights {
+    color: var(--grayscale-placehold, #A0A3BD);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Text Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+@media screen and (min-width:991px) {
+    .w-75_css {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .w-75_css {
+        margin-top: 20px;
+    }
+}
+
+.nav_bg {
+    background-color: white;
+    z-index: 99;
+}
+
+.ZIndex {
+    z-index: 1;
+}
+
+.Order_Head {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Display Small Bold */
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    /* 133.333% */
+    letter-spacing: 0.0625rem;
+}
+
+.icon_style {
+    border-radius: 0.84119rem;
+    background: var(--grayscale-input, #EFF0F6);
+    padding: 5px 5px;
+}
+
+.theme_btn {
+    color: var(--grayscale-off-white, #FCFCFC);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+    border-radius: 0.5rem;
+    background: var(--btn_main, #610BEF);
+    padding: 0.875rem 2.875rem;
+}
+
+.sub_head_sub {
+    color: #223C52;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.product_sub {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+
+}
+
+.Select_Lable {
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.Select_style {
+    border-radius: 0.3125rem;
+    border: 0px solid var(--Neutral200, #DCDCE4);
+    background: #F6F6F9;
+    padding: 0.625rem 0.75rem 0.625rem 1rem;
+    margin-top: 10px;
+}
+
+.edit_text {
+    color: var(--primary-default, #610BEF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+.text_sub_name {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.Head_Product {
+
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Display Small Bold */
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    /* 133.333% */
+    letter-spacing: 0.0625rem;
+}
+
+.Card_head_text {
+    color: var(--neutral-1, #0B0B0B);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 100% */
+}
+
+.card_para_text {
+    color: #223C52;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Text Large */
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+.card_offer_price {
+    color: #BDBDBD;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Text Large */
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+.card_shadow {
+
+    /* Shadow / 2 */
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+@media screen and (max-width:800px) {
+    .fc-button .fc-icon {
+        vertical-align: middle;
+        font-size: 0.8em !important;
+    }
+
+    .fc-button {
+        -webkit-appearance: button;
+        color: #212529;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.4em 0.65em;
+        font-size: 0.7em !important;
+        line-height: 1.5;
+        border-radius: 0.25em;
+    }
+
+    .fc {
+        direction: ltr;
+        text-align: left;
+        font-size: 11px !important;
+    }
+}
+
+.fc-button-primary {
+    color: #fff;
+    background-color: #610bef !important;
+    border-color: #610bef !important;
+}

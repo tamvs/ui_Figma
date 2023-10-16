@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Template</title>
+
+    <!-- boostrap css  -->
+    <link rel="stylesheet" href="./Assets/vendors/bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+
+    <!-- coustom css  -->
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+
+    <!-- boostrap icons  -->
+    <link rel="stylesheet" href="./Assets/vendors/icons-1.11.1/font/bootstrap-icons.css" />
+    <!-- font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Nav Bar start  -->
+    <nav class="navbar navbar-expand-lg nav_height">
+        <div class="container-fluid nav_bg">
+            <a class="navbar-brand" href="#"><img src="./Assets/images/logo_icon.svg" height="24px" width="24px"
+                    alt="" /><span class="logo_text"> Booker</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link Nav_Menu" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Nav_Menu_active" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Nav_Menu" href="#">Business</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="Nav_btn Btn_1 me-2" type="submit">Login</button>
+                    <button class="Nav_btn Btn_2 me-2" type="submit">Register</button>
+
+                    <div class="dropdown DD_style dropstart">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="./Assets/images/flag.png" alt="" />
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End  -->
+
+    <!-- nav 2 start  -->
+    <nav class="container-fluid bg_color_nav_2 py-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-5"></div>
+                    <div class="col-lg-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control search_input ZIndex" placeholder="Search"
+                                aria-label="Search" aria-describedby="basic-addon1" />
+                            <span class="input-group-text bg_search" id="basic-addon1"><i
+                                    class="bi bi-search px-2"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <select class="form-select w-75_css select_style" aria-label="Default select example">
+                    <option selected>Choose filters</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <!-- nav 2 end  -->
+
+
+    <section class="mt-5 my-5 py-5 container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="C-Booking-heading">
+                    Checkout
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h2 class="C-sub-heading"><span><img src="./Assets/images/check.svg" alt=""></span> PERSONAL
+                            INFROMATION</h2>
+                    </div>
+                    <div class="d-flex">
+                        <img src="./Assets/images/edit.svg" alt="">
+                        <p class="mt-3 C-check-out-colr">EDIT</p>
+                    </div>
+
+                </div class="mt-3">
+                <div>
+                    <p>PAYEMENTS</p>
+                </div>
+
+                <div class="mt-4">
+                    <div class="d-flex C-check-bg-color p-3 mt-3">
+                        <input type="checkbox" class="checkbox-round mt-1" />
+                        <p class="mx-3 fs-5 mx-3">card</p>
+                    </div>
+                    <div class="d-flex C-check-bg-color p-3 mt-3">
+                        <input type="checkbox" class="checkbox-round mt-1" />
+                        <p class="mx-3 fs-5 mx-3">Cash</p>
+                    </div>
+                    <div class="d-flex C-check-bg-color p-3 mt-3">
+                        <input type="checkbox" class="checkbox-round mt-1" />
+                        <p class="mx-3 fs-5 mx-3">Invoice</p>
+                    </div>
+                   
+                </div>
+
+                <div class="mt-3 d-flex justify-content-end">
+                    <div>
+                        <button class="C-check_btn p-3 text-white">Place order</button>
+                    </div>
+                </div>
+
+                <div>
+
+                </div>
+                
+
+
+            </div>
+            <div class="col-md-4 mt-sm-3 p-5">
+                <div>
+                    <p class="C-booking-par">There is 1 item in your cart.</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <p class="C-booking-par mt-1">lorem ipsum</p>
+                    </div>
+                    <div>
+                        <p class="mx-4">$68.93</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <p class="me-1 mt-1">23 mars 2021</p>
+                    </div>
+                    <div class="d-flex">
+                        <div>
+                            <img src="./Assets/images/watch_later_24px.png" alt="" class="img-fluid">
+                        </div>
+                        <div>
+                            <p class="mt-1">17:00-18:30</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-1 d-flex justify-content-between C-booking-color p-4">
+                    <div>
+                        <p class="C-booking-par fw-bold ">TOTAL (TAX INCL.)</p>
+                    </div>
+                    <div>
+                        <p class="C-booking-par fw-bold ">$68.93</p>
+                    </div>
+                </div>
+
+                <div class="d-flex C-input-border-none1  mt-5">
+                    <div class="number">
+                        <span class="minus  C-booking-color">-</span>
+                        <input type="text" value="1" />
+                        <span class="plus  C-booking-color">+</span>
+                    </div>
+                </div>
+
+
+                <div class="mt-5">
+                    <p class="C-booking-par fw-bold fs-4">Discount Code</p>
+                    <div class="">
+                        <div>
+                            <input type="adress" placeholder="" class="C-input-border-none w-100 p-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <div class="d-flex ">
+                        <div>
+                            <img src="./Assets/images/shield.svg" alt="" class="">
+                        </div>
+                        <div>
+                            <p class="fs-6 C-bor-bot mx-4 C-bor-bot mb-4    ">
+                                Security policy (edit with Customer reassurance module)
+                            </p>
+                        </div>
+                        <hr>
+
+                    </div>
+                    <div class="d-flex ">
+                        <div>
+                            <img src="./Assets/images/truck.svg" alt="" class="">
+                        </div>
+                        <div>
+                            <p class="fs-6 C-bor-bot mx-4 C-bor-bot mb-4">
+                                Security policy (edit with Customer reassurance module)
+                            </p>
+                        </div>
+                        <hr>
+
+                    </div>
+                    <div class="d-flex ">
+                        <div>
+                            <img src="./Assets/images/repeat.svg" alt="" class="">
+                        </div>
+                        <div>
+                            <p class="fs-6 C-bor-bot mx-4 C-bor-bot mb-4">
+                                Security policy (edit with Customer reassurance module)
+                            </p>
+                        </div>
+                        <hr>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer start -->
+    <footer>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row text-center">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg Footer_text">About</div>
+                        <div class="col-lg Footer_text">Categories</div>
+                        <div class="col-lg Footer_text">Business</div>
+                        <div class="col-lg Footer_text">FAQ</div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                    <span class="d-block d-flex">
+                        <img src="./Assets/images/Snap.svg" class="img-fluid me-2" alt="" />
+                        <img src="./Assets/images/Instagram.svg" class="img-fluid me-2" alt="" />
+                        <img src="./Assets/images/Tiktok.svg" class="img-fluid me-2" alt="" />
+                        <img src="./Assets/images/Facebook.svg" class="img-fluid me-2" alt="" />
+                    </span>
+                </div>
+                <div class="col-lg-12">
+                    <p class="footer_text_rights text-center">
+                        Copyright ©2021. All Right Reserved
+                    </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- boostrap js  -->
+    <script src="./Assets/vendors/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
