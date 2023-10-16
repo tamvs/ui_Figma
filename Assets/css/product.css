@@ -1,0 +1,269 @@
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: none !important;
+}
+
+.nav-button-custom {
+    border: none;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: none;
+    --bs-nav-pills-link-active-color: none;
+    --bs-nav-pills-link-active-bg: none;
+}
+
+.product_card {
+    background: url("../images/productbg.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.pad-product-heart {
+    padding-top: 12rem;
+}
+
+
+@media (min-width:0px) and (max-width : 320px) {
+    .pad-product-heart {
+        padding-top: 8rem;
+    }
+    .C-Setting-car-head {
+        color: var(--grayscale-off-black, #14142B);
+        font-feature-settings: 'clig' off, 'liga' off;
+    
+        /* Desktop / Display Small Bold */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 133.333% */
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width:321px) and (max-width : 375px) {
+    .pad-product-heart {
+        padding-top: 6rem;
+    }
+    .C-Setting-car-head {
+        color: var(--grayscale-off-black, #14142B);
+        font-feature-settings: 'clig' off, 'liga' off;
+    
+        /* Desktop / Display Small Bold */
+        font-family: Poppins;
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 133.333% */
+        letter-spacing: 1px;
+    }
+
+}
+
+@media (min-width:376px) and (max-width : 425px) {
+    .pad-product-heart {
+        padding-top: 5rem;
+    }
+    .C-Setting-car-head {
+        color: var(--grayscale-off-black, #14142B);
+        font-feature-settings: 'clig' off, 'liga' off;
+    
+        /* Desktop / Display Small Bold */
+        font-family: Poppins;
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 133.333% */
+        letter-spacing: 1px;
+    }
+
+}
+
+@media (min-width:426px) and (max-width : 768px) {
+    .pad-product-heart {
+        padding-top: 5rem;
+    }
+    .C-Setting-car-head {
+        color: var(--grayscale-off-black, #14142B);
+        font-feature-settings: 'clig' off, 'liga' off;
+    
+        /* Desktop / Display Small Bold */
+        font-family: Poppins;
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 133.333% */
+        letter-spacing: 1px;
+    }
+
+}
+
+@media (min-width:769px) and (max-width : 1024px) {
+    .pad-product-heart {
+        padding-top: 6rem;
+    }
+    .C-Setting-car-head {
+        color: var(--grayscale-off-black, #14142B);
+        font-feature-settings: 'clig' off, 'liga' off;
+    
+        /* Desktop / Display Small Bold */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 133.333% */
+        letter-spacing: 1px;
+    }
+
+}
+
+@media (min-width:1024px) and (max-width : 1440px) {
+    .pad-product-heart {
+        padding-top: 5rem;
+    }
+    .C-Setting-car-head {
+        color: var(--grayscale-off-black, #14142B);
+        font-feature-settings: 'clig' off, 'liga' off;
+    
+        /* Desktop / Display Small Bold */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 133.333% */
+        letter-spacing: 1px;
+    }
+
+}
+
+
+
+.nav-bot-bor {
+    color: #223C52;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 169.231% */
+    letter-spacing: 0.25px;
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    background-color: transparent !important;
+    border-bottom: 5px solid blue;
+    margin-bottom: 10px;
+    color: var(--Primary600, #4945FF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px;
+}
+
+.product-text-color-gre {
+    color: #223C52 !important;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Medium */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 177.778% */
+    letter-spacing: 0.75px;
+}
+
+.product-text-price{
+    
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Desktop / Link Medium */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: 0.75px;
+}
+
+.btn-color{
+    background-color: #4945FF;
+}
+
+.icon_style {
+    border-radius: 0.84119rem;
+    background: var(--grayscale-input, #EFF0F6);
+    padding: 5px 5px;
+}
+
+.btn-product{
+    background-color: #4945FF;
+    border-radius: 15px  15px 15px 15px;
+}
+
+.card-bg-C {
+    border-radius: 54px;
+    background: var(--grayscale-input, #EFF0F6);
+}
+
+.C-Setting-car-head {
+    color: var(--grayscale-off-black, #14142B);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Display Small Bold */
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+    letter-spacing: 1px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 3px 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50px 50px 50px 50px;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #610BEF;
+}

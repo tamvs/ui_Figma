@@ -1,0 +1,197 @@
+.logo_text {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.5rem;
+    /* 133.333% */
+}
+
+.form-select {
+    --bs-form-select-bg-img: url("../images/Accordion\ Option.svg");
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: none !important;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form:active{
+    border: none;
+}
+
+.Nav_Menu {
+    color: var(--grayscale-off-black, #14142B);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.Nav_Menu_active {
+    color: var(--grayscale-label, #6E7191);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.nav_height {
+    height: 6rem;
+}
+
+button {
+    all: unset;
+}
+
+.Nav_btn {
+    padding: 0.56rem 1.38rem 0.56rem 1.38rem;
+}
+
+.Btn_1 {
+    border-radius: 0.5rem;
+    border: 1px solid var(--btn_main, #610BEF);
+    color: var(--btn_main, #610BEF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+
+}
+
+.Btn_2 {
+    border-radius: 0.5rem;
+    background: var(--btn_main, #610BEF);
+    color: var(--grayscale-off-white, #FCFCFC);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Desktop / Link X-Small */
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem;
+    /* 169.231% */
+    letter-spacing: 0.01563rem;
+}
+
+.bg_color_nav_2 {
+    background: var(--grayscale-line, #D9DBE9);
+
+}
+
+.bg_search {
+    border-radius: 0px 15px 15px 0px;
+    background-color: var(--btn_main, #610BEF);
+    color: white;
+}
+
+.search_input {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.select_style {
+    border-radius: 0.625rem;
+}
+
+.DD_style {
+    border-radius: 1.25rem;
+    background: #FFF;
+
+    /* Custom/Shadow-Medium */
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+
+footer {
+    background: #4700AB;
+    color: white;
+    padding: 30px 0px;
+}
+
+.Footer_text {
+    color: var(--grayscale-off-white, #FCFCFC);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Text Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+.footer_text_rights {
+    color: var(--grayscale-placehold, #A0A3BD);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Text Small */
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 160% */
+    letter-spacing: 0.04688rem;
+}
+
+@media screen and (min-width:991px) {
+    .w-75_css {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .w-75_css {
+        margin-top: 20px;
+    }
+}
+
+.nav_bg {
+    background-color: white;
+    z-index: 99;
+}
+
+.ZIndex {
+    z-index: 1;
+}
+
+
+
