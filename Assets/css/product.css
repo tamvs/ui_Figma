@@ -36,10 +36,11 @@
     .pad-product-heart {
         padding-top: 8rem;
     }
+
     .C-Setting-car-head {
         color: var(--grayscale-off-black, #14142B);
         font-feature-settings: 'clig' off, 'liga' off;
-    
+
         /* Desktop / Display Small Bold */
         font-family: Poppins;
         font-size: 16px;
@@ -55,10 +56,11 @@
     .pad-product-heart {
         padding-top: 6rem;
     }
+
     .C-Setting-car-head {
         color: var(--grayscale-off-black, #14142B);
         font-feature-settings: 'clig' off, 'liga' off;
-    
+
         /* Desktop / Display Small Bold */
         font-family: Poppins;
         font-size: 16px !important;
@@ -75,10 +77,11 @@
     .pad-product-heart {
         padding-top: 5rem;
     }
+
     .C-Setting-car-head {
         color: var(--grayscale-off-black, #14142B);
         font-feature-settings: 'clig' off, 'liga' off;
-    
+
         /* Desktop / Display Small Bold */
         font-family: Poppins;
         font-size: 16px !important;
@@ -95,10 +98,11 @@
     .pad-product-heart {
         padding-top: 5rem;
     }
+
     .C-Setting-car-head {
         color: var(--grayscale-off-black, #14142B);
         font-feature-settings: 'clig' off, 'liga' off;
-    
+
         /* Desktop / Display Small Bold */
         font-family: Poppins;
         font-size: 16px !important;
@@ -115,10 +119,11 @@
     .pad-product-heart {
         padding-top: 6rem;
     }
+
     .C-Setting-car-head {
         color: var(--grayscale-off-black, #14142B);
         font-feature-settings: 'clig' off, 'liga' off;
-    
+
         /* Desktop / Display Small Bold */
         font-family: Poppins;
         font-size: 16px;
@@ -135,10 +140,11 @@
     .pad-product-heart {
         padding-top: 5rem;
     }
+
     .C-Setting-car-head {
         color: var(--grayscale-off-black, #14142B);
         font-feature-settings: 'clig' off, 'liga' off;
-    
+
         /* Desktop / Display Small Bold */
         font-family: Poppins;
         font-size: 16px;
@@ -197,20 +203,21 @@
     letter-spacing: 0.75px;
 }
 
-.product-text-price{
-    
+.product-text-price {
+
     font-feature-settings: 'clig' off, 'liga' off;
-    
+
     /* Desktop / Link Medium */
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px; /* 177.778% */
+    line-height: 32px;
+    /* 177.778% */
     letter-spacing: 0.75px;
 }
 
-.btn-color{
+.btn-color {
     background-color: #4945FF;
 }
 
@@ -220,9 +227,9 @@
     padding: 5px 5px;
 }
 
-.btn-product{
+.btn-product {
     background-color: #4945FF;
-    border-radius: 15px  15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .card-bg-C {
@@ -266,4 +273,122 @@
 
 .carousel-indicators .active {
     background-color: #610BEF;
+}
+
+
+/* product entry page css start here */
+
+.product_card_entry {
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+}
+
+.product_card_title {
+    color: var(--grayscale-ash, #262338);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Large */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 160% */
+    letter-spacing: 0.75px;
+}
+
+
+.product_para {
+    color: var(--grayscale-ash, #262338);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 169.231% */
+    letter-spacing: 0.25px;
+}
+
+.product_total {
+    background-color: white;
+}
+
+.product_card_price_item {
+    background: #F7F8F9;
+}
+
+.C-sub-heading {
+    color: var(--grayscale-ash, #262338);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Desktop / Link Large */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 160% */
+    letter-spacing: 0.75px;
+}
+
+
+.C-input-border-none {
+    border: none;
+    background: var(--grayscale-bg, #F7F7FC);
+    padding: 6px 6px;
+}
+
+.C-booking-par {
+    color: #223C52;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading 5 */
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.C-booking-color {
+    background: var(--grayscale-bg, #F7F7FC);
+    padding: 7px 7px;
+}
+
+C-input-border-none1 {
+    border: none;
+}
+
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: #D9DBE9;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background: url("../images/Checkbox.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.product_card_shipping {
+    border-radius: 5px;
+    background: var(--grayscale-input, #EFF0F6);
+}
+
+.product-text-field{
+    background: transparent !important;
+    border: none;
 }
