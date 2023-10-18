@@ -5,7 +5,7 @@
     background-position: center;
     height: 50vh;
     width: 100%;
-    position: relative;
+    
 }
 
 .AEL-card-bg {
@@ -13,7 +13,10 @@
     position: absolute;
     width: 100%;
     top: 25rem;
+    position: relative;
 }
+
+
 
 .ael-C {
     color: #000;
@@ -147,15 +150,16 @@
 }
 
 .NAIL-bg {
+   border-radius: 15px;
+    background: #FFF;
+}
+
+.small-card-Ael {
+    
     background: url("../images/maped.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 50vh;
-}
-
-.small-card-Ael {
-    border-radius: 15px;
-    background: #FFF;
     /* margin-top: 200px; */
 
 }
