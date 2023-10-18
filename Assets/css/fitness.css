@@ -1,5 +1,5 @@
 .card-Ael {
-    background: url("../images/cardael.svg");
+    background: url("../images/fitness.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -178,7 +178,7 @@
 
 @media (min-width:0px) and (max-width:320px) {
     .card-Ael {
-        background: url("../images/cardael.svg");
+        background: url("../images/fitness.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -248,7 +248,7 @@
 
 @media (min-width:320px) and (max-width:375px) {
     .card-Ael {
-        background: url("../images/cardael.svg");
+        background: url("../images/fitness.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -318,7 +318,7 @@
 
 @media (min-width:376px) and (max-width:425px) {
     .card-Ael {
-        background: url("../images/cardael.svg");
+        background: url("../images/fitness.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -389,7 +389,7 @@
 
 @media (min-width:425px) and (max-width:765px) {
     .card-Ael {
-        background: url("../images/cardael.svg");
+        background: url("../images/fitness.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -459,7 +459,7 @@
 
 @media (min-width:765px) and (max-width:1024px) {
     .card-Ael {
-        background: url("../images/cardael.svg");
+        background: url("../images/fitness.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -529,7 +529,7 @@
 
 @media (min-width:1024px) and (max-width:1440px) {
     .card-Ael {
-        background: url("../images/cardael.svg");
+        background: url("../images/fitness.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
