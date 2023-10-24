@@ -1797,3 +1797,22 @@ C-input-border-none1 {
     font-weight: 900;
     line-height: 16px;
 }
+
+
+.Dates-card-border{
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+}
+
+.Dates-card-border:hover{
+    background-color: #4945FF5C;
+    
+}
+
+.Hover_text_css{
+    color: #BEBEBE;;
+}
+
+.Hover_text_css :hover{
+    color: white;
+}

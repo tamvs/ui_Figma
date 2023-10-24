@@ -1,0 +1,227 @@
+
+.carousel-control-next-icon {
+    background-image: url("../images/arrow-right.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px  25px ;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/arrow-left\ .svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px  25px ;
+}
+
+
+.carousel-control-next1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 1100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-prev1{
+     position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    right: 1100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+
+}
+
+
+@media (min-width:0px) and (max-width:425px){
+    .carousel-control-next1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        left: 350px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    
+    .carousel-control-prev1{
+         position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        right: 350px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    
+    }
+
+}
+
+@media (min-width:426px) and (max-width:768px){
+
+    .carousel-control-next1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        left: 530px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    
+    .carousel-control-prev1{
+         position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        right: 530px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    
+    }
+    
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .carousel-control-next1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        left: 750px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    
+    .carousel-control-prev1{
+         position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        right: 750px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    
+    }
+    
+}
+
+@media (min-width:1025px) and (max-width:1440px){
+
+    /* .carousel-control-next1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        left: 1090px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    
+    .carousel-control-prev1{
+         position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        right: 1090px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+    
+    } */
+
+
+    
+}
