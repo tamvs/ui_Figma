@@ -12,7 +12,7 @@
     background-color: black;
     position: absolute;
     width: 100%;
-    top: 25rem;
+    top: 17rem;
     position: relative;
 }
 
@@ -191,7 +191,7 @@
         background-color: black;
         position: absolute;
         width: 100%;
-        top: 2rem;
+        top: 4rem;
     }
 
     .owl-theme .owl-controls .owl-buttons .owl-next {
