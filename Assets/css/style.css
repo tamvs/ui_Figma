@@ -9,6 +9,12 @@
     /* 133.333% */
 }
 
+.time-modal{
+    border-radius: 15px ;
+    background-color: #EDF1F7;
+    width: fit-content;
+}
+
 .form-select {
     --bs-form-select-bg-img: url("../images/Accordion\ Option.svg");
     display: block;
