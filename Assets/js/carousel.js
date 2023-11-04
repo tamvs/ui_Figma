@@ -124,3 +124,32 @@ $(document).ready(function(){
         autoPlay:true
     });
 });
+
+$(document).ready(function(){
+    $("#testimonial-sliderAll").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[980,2],
+        itemsTablet:[768,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["l","r"],
+        autoPlay:true
+    });
+});
+
+$(document).ready(function(){
+    $("#testimonial-sliderAll2").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[980,2],
+        itemsTablet:[768,1],
+        pagination:false,
+        navigation:true,
+        navigationText:["l","r"],
+        autoPlay:true
+    });
+});
+
+
+
