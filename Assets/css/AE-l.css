@@ -12,7 +12,7 @@
     background-color: black;
     position: absolute;
     width: 100%;
-    top: 17rem;
+    top: 24rem;
     position: relative;
 }
 
@@ -542,7 +542,7 @@
         background-color: black;
         position: absolute;
         width: 100%;
-        top: 22rem;
+        top: 26rem;
     }
 
     .owl-theme .owl-controls .owl-buttons .owl-next {
